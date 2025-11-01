@@ -1,6 +1,6 @@
 {
     "builds": [
-      { "src": "api/main.py", "use": "@vercel/python" },
+      { "src": "./main.py", "use": "@vercel/python" },
       { "src": "frontend/vite.config.js", "use": "@vercel/static-build" }
     ],
     "routes": [
