@@ -1,22 +1,7 @@
-# ---- FastAPI Core ----
-python-3.12.6
-fastapi==0.115.0
-uvicorn[standard]==0.30.6
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
 pydantic[email]
-
-
-
-# ---- Database (PostgreSQL + ORM) ----
-SQLAlchemy==2.0.35
-psycopg2-binary>=2.9.9
-
-# ---- Data Validation ----
-pydantic==2.9.2
-pydantic-core==2.23.4
-
-# ---- Starlette (for CORS, Middleware, etc.) ----
-starlette==0.38.2
-
-# ---- Environment Variables & Migrations (optional but useful) ----
-python-dotenv==1.0.1
-alembic==1.13.2
+python-dotenv
+alembic
