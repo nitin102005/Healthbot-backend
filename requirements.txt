@@ -1,0 +1,18 @@
+# ---- Core ----
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# ---- Database ----
+SQLAlchemy==2.0.35
+psycopg2-binary==2.9.9
+
+# ---- Validation / Schemas ----
+pydantic==2.9.2
+pydantic-core==2.23.4
+
+# ---- CORS / Middleware ----
+starlette==0.38.2
+
+# ---- Optional (helpful during development) ----
+python-dotenv==1.0.1   # For environment variables
+alembic==1.13.2         # For database migrations
